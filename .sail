@@ -1,2 +1,3 @@
 <pipeline>
+  <job></job>
 </pipeline>
