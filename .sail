@@ -1,6 +1,6 @@
 <pipeline>
   <environment>
-    <variable secret name="TEST">CiQAG0FStkuFKOWbzMOjPzupuFUPRhhVvw7h2PhpzPFteOQiZboSLwDcaLM34spknTkU2K4JKeX8AfWZvLti26oxngji2NjSd5fTcwzsdvZ6XwPBu321</variable>
+    <variable secret name="TEST" value="CiQAG0FStkuFKOWbzMOjPzupuFUPRhhVvw7h2PhpzPFteOQiZboSLwDcaLM34spknTkU2K4JKeX8AfWZvLti26oxngji2NjSd5fTcwzsdvZ6XwPBu321" />
   </environment>
   <job image="node:9.2.1-alpine">
     <Run command="yarn install" />
